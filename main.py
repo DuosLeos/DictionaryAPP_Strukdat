@@ -1,6 +1,5 @@
 import DataStructure as ds
 import os
-import csv
 os.system('cls')
 
 tree = ds.RedBlackTree()  # initialize RB-tree
