@@ -189,8 +189,7 @@ class RedBlackTree:
     def print_tree(self):
         self.__printCall(self.root, "", True)
 
-
-"""
+'''
 tree = RedBlackTree()
 tree.insert('a')
 tree.insert('b')
@@ -207,4 +206,4 @@ print(tree.heightOfTree(tree.root, 0))
 print(tree.number_of_nodes)
 print(tree.search('q'))
 print(tree.getBlackHeight())
-"""
+'''
